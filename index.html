@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Dragon Ball</title>
+    <link rel="stylesheet" href="./css/formulario.css">
+    <link rel="shortcut icon" href="./img/dragonball.jpg" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="header-logo">
+            <img src="./img/goku_card.webp" alt="Dragon Ball Super" class="logo">
+        </div>
+        <h1>Torneio do Poder</h1>
+        <p class="subtitulo">Cadatre seu Guerreiro para representar seu Universo!</p>
+        <form action="">
+            <div class="form-control">
+                <label for="nome">Nome do Guerreiro</label>
+                <input type="email" id="email" placeholder="Ex: Son Goku" required />
+            </div>
+            <div class="form-control">
+                <label for="email">E-mail de Contato:</label>
+                <input type="email" id="email" placeholder="guerreiro@universo7.com" required />
+            </div>
+            <div class="form-control">
+                <label for="data">Data de Nascimento:</label>
+                <input type="date" id="data" placeholder="Digite sua Senha" required />
+            </div>
+            <div class="form-control">
+                <label for="senha">Senha de Acesso Secreto:</label>
+                <input type="password"  id="senha" placeholder="Digite sua Senha" required />
+            </div>
+            <div class="form-control">
+                <label for="universo">Universo de Origem:</label>
+                <select id="universo" required>
+                    <option value="">Selecione o Universo</option>
+                    <option value="universo7">Universo7 (Goku, Vegeta, Piccolo)</option>
+                    <option value="universo6">Universo6 (Hit, Caulifla, Kale)</option>
+                    <option value="universo11">Universo11 (Jiren, Toppo, Dyspo)</option>
+                    <option value="universo1">Universo1 (Universo Supermo)</option>
+                </select>
+            </div>
+            <div class="forn-control" buttons-group>
+                <button type="submit" class="btn-cadastro">Inscrever Guerreiro</button>
+                <button type="reset" class="btn-limpr">Limpar Dados</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

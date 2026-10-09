@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #060913;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container{
+    background-color: #0f172a;
+    border: 3px solid #00b4d8;
+    border-radius: 12px;
+    padding: 30px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 0 25px rgba(0, 180, 216, 0.4), 0 0 8px rgb(255, 255, 255 / 0.2);
+}
+
+.header-logo{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.logo{
+    max-width: 250px;
+    height: auto;
+    border-radius: 6px;
+    border: 1px solid #00b4d8;
+}
+
+h1{
+    text-align: center;
+    color: #e0f7ff;
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    text-shadow: 0 0 12px rgba(0, 180, 216, 0.8);
+}
+
+.subtitulo{
+    text-align: center;
+    color: #90e0ef;
+    font-size: 0.95rem;
+    margin-bottom: 25px;
+}
+
+.from-control{
+    margin-bottom: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+.from-control label{
+    margin-bottom: 6px;
+    color: #caf0f8;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.from-control input,
+.from-control select{
+    padding: 12px;
+    background-color: #080e1e;
+    border: 1px solid #1e3a8a;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 1rem;
+    transition: all 0.3 ease;
+}
+
+.from-control input:focus,
+.from-control select:focus{
+    outline: none;
+    border-color: #48cae4;
+    box-shadow: 0 0 12px rgba(72, 202 228, 0.8), 0 0 4px rgba(255, 255, 255, 0.9);
+}
+
+.buttons-group{
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.btn-cadastro{
+    background-color: #00b4d8;
+    color: #03045e;
+    box-shadow: 0 0 10px rgba(0, 180, 216, 0.4);
+}
+
+.btb-cadastro:hover{
+    background-color: #e0f7ff;
+    color: #03045e;
+    box-shadow: 0 0 18px rgba(224, 247, 255, 0.9);
+}
+
+.btn-limpr{
+    background-color: #1e293b;
+    color: #90e0ef;
+    border: 1px solid #334155;
+}
+
+.btn-limpr:hover{
+    background-color: #1e293b;
+    color: #90e0ef;
+    border: 1px solid #334155;
+}
